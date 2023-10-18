@@ -1,0 +1,204 @@
+@import url(header.css);
+/* dawdwad */
+li{
+    list-style: none;
+}
+.ffff{
+    background-image:url("../a2/ảnh/top_338-3.jpg");
+    height: 400px;
+}
+.all-body{
+    margin: 0 auto;
+    width: 70%;
+    padding-top: 100px;
+}
+.title{
+    text-transform: uppercase;
+    color: white;
+    background-color: #794109;
+    margin:  0 0 50px 0 ;
+}
+
+.left-top{
+    width: 50%;
+    background-color: #ced5d5;
+    box-shadow: 0px 0px 9px 1px black;
+    margin-bottom: 30px;
+    
+}
+/* .left-top li a{
+    margin: 10px;
+} */
+.left-top p{
+    color: black;
+}
+.left-top p:hover{
+    color: #2FA1B3;
+}
+/* hhhhh */
+.name{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 25px;
+}
+.zoom{
+    width: 100%;
+    padding: 10px;
+    position: relative;
+}
+.zoom li {
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.zoom li a img {
+    transition: all 0.3s ease-in-out;
+    display: block;
+}
+.zoom a:hover img{
+    transform: scale(1.05);
+     /* phòng to lên 10% */
+}
+.right-top{
+    width: 44%;
+    background-color: #ced5d5;
+    box-shadow: 0px 0px 9px 1px black;
+    padding: 10px;
+    margin: 0 0 30px 30px;
+    position: relative;
+   
+}
+.right-top p{
+    color: black;
+}
+.right-top p:hover{
+    color: #2FA1B3;
+}
+
+.right-top li{
+    overflow: hidden;
+}
+.anh-top{
+    display: block;
+    max-width: 100%;
+    transition: all 0.3s ease-in-out;
+   
+}
+.right-top li:hover img{
+    transform: scale(1.05);
+     /* phòng to lên 10% */
+}
+.aa{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+}
+ /* duoi */
+.bb{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.anh{
+    width: 330px;
+    margin-bottom: 15px;
+    position: relative;
+}
+.anh li{
+    width: 330px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.anh li a img {
+    width: 330px;
+    height: 200px;
+    transition: all 0.3s ease-in-out;
+    display: block;
+}
+.anh a:hover img{
+    transform: scale(1.05);
+     /* phòng to lên 10% */
+}
+.anh p{
+    color: black;
+}
+.anh p:hover{
+    color: #2FA1B3;
+}
+
+
+.xem-them{
+    text-align: center;  
+    margin:20px 0;
+}
+.xem-them button{
+    color: white;
+    background-color: #2FA1B3;
+    border-radius: 20px;
+    padding: 5px 15px;
+}
+
+.cc{
+    background-color: #2FA1B3;
+    display: flex;
+    padding: 2px 0 4px 230px;
+}
+.search-bot{
+    margin-top: 10px;
+    width: 500px;
+    height: 36px;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 70px;
+    border: 1px solid #e9ecef;
+    background-color: white;
+}
+
+.search-bot input{ 
+    width: calc(100% - 32px);
+    height: 100%;
+    padding-left: 10px;
+    font-weight: 400;
+    font-weight: lighter;
+    border: 0;
+}
+
+.the-last{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 70%;
+    font-size: 15px;
+    margin-top: 15px;
+}
+.the-last a li::before{
+    list-style: disc;
+    content: "\2022";
+    color: gray;
+    padding-right: 4px;
+}
+.the-last a li{
+    color: #405153;
+    padding-right: 10px;
+}
+
+.footer{
+    display: flex;
+    margin: 0 auto;
+    width: 70%;
+    margin-top: 20px;
+    border-top: 1px solid gray;
+    padding-top: 10px;
+}
+.footer div ul li{
+    color: black;
+}
+.footer div a:hover li{
+    color: #278695;
+}
+.hh{
+    font-size: 12px;
+}
