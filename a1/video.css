@@ -1,0 +1,183 @@
+@import url(header.css);
+
+
+.title{
+    margin: 0 auto;
+    width: 70%;
+}
+.title a:hover p{
+    color: black;
+}
+/* phần video- đức */
+.all-body{
+    margin: 0 auto;
+    width: 70%;
+    display: flex;
+}
+.all-body-left{
+    width: 70%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+}
+
+.contai{
+    width: 230px;
+    height: 370px;
+    margin-bottom: 20px;
+}
+
+.name{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom:10px;
+    margin-right: 10px;
+}
+
+
+/* right */
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.all-body-right{
+    width: 30%;
+    margin-left: 15px;
+    max-height: auto;
+}
+.right-top{
+    display: flex;
+    padding: 10px 15px 0 15px;
+}
+/* zoom anh */
+.zoom{
+    border-bottom: 1px solid rgb(145, 140, 140);
+    position: relative;
+}
+.zoom li {
+    margin-bottom: 10px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.zoom li a img {
+    transition: all 0.3s ease-in-out;
+    display: block;
+}
+.zoom a:hover img{
+    transform: scale(1.05);
+     /* phòng to lên 10% */
+}
+.text{
+    padding-left: 10px;
+    border-bottom: 1px solid rgb(145, 140, 140);
+}
+.text a p{
+    color: black;
+}
+.text a:hover p{
+    color: #2FA1B3;
+}
+.bot{
+    display: flex;
+}
+
+.right-mid{
+    margin: 0 auto;
+    width: 92%;
+    padding-top: 15px;
+}
+
+.anh-3{
+    display: flex;
+}
+.mini-anh{
+    width: 30%;
+    margin-left: 5px;
+}
+.right-ear-bottom{
+    margin: 0 auto;
+    width: 92%;
+    padding-top: 15px;
+}
+
+.xem-them{
+    padding-left: 520px; 
+    margin:20px 0;
+}
+.xem-them button{
+    color: white;
+    background-color: #2FA1B3;
+    border-radius: 20px;
+    padding: 5px 15px;
+}
+
+.cc{
+    background-color: #2FA1B3;
+    display: flex;
+    padding: 2px 0 4px 230px;
+}
+.search-bot{
+    margin-top: 10px;
+    width: 500px;
+    height: 36px;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 70px;
+    border: 1px solid #e9ecef;
+    background-color: white;
+}
+
+.search-bot input{ 
+    width: calc(100% - 32px);
+    height: 100%;
+    padding-left: 10px;
+    font-weight: 400;
+    font-weight: lighter;
+    border: 0;
+}
+
+.the-last{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 70%;
+    font-size: 15px;
+    margin-top: 15px;
+    padding: 0 15px;
+}
+.the-last a li::before{
+    list-style: disc;
+    content: "\2022";
+    color: gray;
+    padding-right: 4px;
+}
+.the-last a li{
+    color:  rgb(88, 88, 88);
+    padding-right: 10px;
+}
+.the-last a:hover li{
+    color: #2fa1b3;
+}
+
+.footer{
+    display: flex;
+    margin: 0 auto;
+    width: 70%;
+    margin-top: 20px;
+    border-top: 1px solid gray;
+    padding-top: 10px;
+}
+.footer div ul li{
+    color: black;
+}
+.footer div a:hover li{
+    color: #278695;
+}
+.hh{
+    font-size: 12px;
+}
